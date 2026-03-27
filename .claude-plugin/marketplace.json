@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "xavier-channel-plugin",
+  "description": "Xavier Brain inter-agent communication channel for Claude Code",
+  "owner": {
+    "name": "Shalafi"
+  },
+  "metadata": {
+    "description": "Xavier Brain channel plugin — polls Turso cloud DB for inter-agent messages and delivers them as Claude Code channel notifications.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "xavier-channel",
+      "source": "./plugins/xavier-channel",
+      "description": "Xavier Brain inter-agent communication channel. Polls Turso cloud DB for messages between agents and delivers them as Claude Code channel notifications.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Shalafi"
+      },
+      "category": "productivity"
+    }
+  ]
+}
