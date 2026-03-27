@@ -1,0 +1,12 @@
+{
+  "name": "xavier-channel",
+  "description": "Xavier Brain inter-agent communication channel. Polls Turso cloud DB for messages between agents and delivers them as Claude Code channel notifications.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Shalafi"
+  },
+  "repository": "https://github.com/ShalafiCoren/xavier-channel-plugin",
+  "license": "MIT",
+  "keywords": ["xavier", "channel", "agent", "turso", "inter-agent"],
+  "channels": ["xavier-channel"]
+}

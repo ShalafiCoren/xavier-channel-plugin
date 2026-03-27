@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "xavier-channel": {
+      "command": "node",
+      "args": ["./scripts/xavier-channel.mjs"],
+      "env": {
+        "XAVIER_AGENT": "${XAVIER_AGENT:-ironman}",
+        "XAVIER_PC": "${XAVIER_PC:-principal-shalafi}",
+        "TURSO_URL": "${TURSO_URL}",
+        "TURSO_TOKEN": "${TURSO_TOKEN}"
+      }
+    }
+  }
+}

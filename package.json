@@ -1,0 +1,12 @@
+{
+  "name": "xavier-channel-plugin",
+  "version": "1.0.0",
+  "description": "Xavier Brain inter-agent channel for Claude Code",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/xavier-channel.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0"
+  }
+}
