@@ -7,6 +7,5 @@
   },
   "repository": "https://github.com/ShalafiCoren/xavier-channel-plugin",
   "license": "MIT",
-  "keywords": ["xavier", "channel", "agent", "turso", "inter-agent"],
-  "channels": ["xavier-channel"]
+  "keywords": ["xavier", "channel", "agent", "turso", "inter-agent", "mcp"]
 }
